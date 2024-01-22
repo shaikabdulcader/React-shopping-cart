@@ -5,7 +5,7 @@ function Nav(props) {
     <>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand d-flex align-items-center" href="/">
+                <a class="navbar-brand d-flex align-items-center" href="https://www.nike.com/in/w/football-shoes-1gdj0zy7ok" target='_blank'>
                     <h2 className='d-inline mb-0 text-light'>NIKE <img src='/images/icons8-nike-60.png' alt='Shop-Logo' className='img-fluid Shop-Logo' /></h2>
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navItems" aria-controls="navItems" aria-expanded="false" aria-label="Toggle navigation">

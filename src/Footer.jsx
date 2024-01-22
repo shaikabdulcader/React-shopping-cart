@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer className="footer-section">
-            <p>Copyright &copy; Your Website {new Date().getFullYear()}</p>
+            <p>© {new Date().getFullYear()} <a href="https://www.nike.com/in/w/football-shoes-1gdj0zy7ok" target="_blank" className="link">Nike</a> , Inc. All Rights Reserved</p>
         </footer>
     );
 }

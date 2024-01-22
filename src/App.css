@@ -110,6 +110,10 @@ color: #000000;
   background-color: #212529;
   color: #CDD2D5;
 }
+.link{
+  color: #CDD2D5;
+  text-decoration: none;
+}
 
 /* animation */
 
