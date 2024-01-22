@@ -6,31 +6,10 @@
   padding-right: 3%;
   padding-left: 5%;
 }
-.button{
-  width: 120px;
-  height: 45px;
-  padding: 10px;
-  margin-right: 50px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  border-radius: 12px;
-  background-color: #CDD2D5;
-  font-size: 1.1rem;
-  border: none;
-  border: 1px solid #000000;
-}
-.count{
-  color: #fff;
-  width: 25px;
-  height: 25px;
-  font-weight: 600;
-  background-color: #000;
-  border-radius: 50%;
-  font-size: 1rem;
-}
+
 .fa-shopping-cart{
   margin-right: 5px;
+  color: #1EE41D;
 }
 /* banner-section */
 
@@ -42,6 +21,7 @@
   color: #CDD2D5;
   background-color: #212529;
   background: url(http://www.pixelstalk.net/wp-content/uploads/2016/05/Adidas-football-shoe-wallpaper-HD.jpg);
+  /* background: url(https://piusport.com/wp-content/uploads/2019/04/Neymar-1.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,10 +55,6 @@ color: #000000;
 }
 .card-titles{
   font-weight: 700;
-}
-.normal-price{
-  color: rgb(162, 162, 162) !important;
-  text-decoration: line-through; 
 }
 .fa-star{
   color: #FFC107;

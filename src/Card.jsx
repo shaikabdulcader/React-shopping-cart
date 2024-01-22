@@ -24,7 +24,7 @@ function Card({props, press}) {
                     <h4>$
                     { props.offer === undefined ? props.mrp : (props.mrp * (props.offer/100)).toFixed(2) }
                     </h4>
-                    <p className={`priceDecrease ${props.offer === undefined ? 'd-none' : ''}`}><span>OFFER: $</span><s>{props.mrp}</s> <span style={{color: "red"}}>(<b>{props.offer}% off</b>)</span></p>
+                    <p className={`priceDecrease ${props.offer === undefined ? 'd-none' : ''}`}><span style={{color: "#6C758E"}}>M.R.P: </span><s style={{color: "#6C758E"}}>${props.mrp}</s> <span style={{color: "red"}}>(<b>{props.offer}% off</b>)</span></p>
                 </div>
             </div>
             <div class="card-footer pb-4 border-top-0 bg-transparent">
