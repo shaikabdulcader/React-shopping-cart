@@ -32,11 +32,6 @@
 .fa-shopping-cart{
   margin-right: 5px;
 }
-.button:hover{
-  background-color: #000000;
-  color: #CDD2D5;
-  transition: 0.9s;
-}
 /* banner-section */
 
 .banner{
@@ -68,14 +63,13 @@ color: #000000;
   text-shadow: 0 1px #000000, 0px -1px #000000, 1px -2px #000000, 2px -1px #000000, 2px -3px #000000, 3px -2px #000000, 3px -4px #000000, 4px -3px #000000, 4px -5px #000000;
 }
 
-/* FancyProduct-card */
+/*Card */
 .card{
   text-align: center;
   margin-bottom: 50px;
 }
-.card:hover{
-  box-shadow: 7px 4px 45px 19px rgba(194,194,194,1);
-  transform: translateY(-10px);
+.card:hover {
+  box-shadow: 7px 4px 45px 19px rgb(214, 213, 213);
   transition: ease-out .5s;
   cursor: pointer;
 }
@@ -115,4 +109,23 @@ color: #000000;
   width: auto;
   background-color: #212529;
   color: #CDD2D5;
+}
+
+/* animation */
+
+.card {
+  transform-origin: 50% 50%;
+  animation: roll-in-animation 1.8s ease 0s 1 normal both running;
+}
+
+@keyframes roll-in-animation {
+  0% {
+      transform: translate(-100%, 0) rotate(-120deg);
+      opacity: 0.5;
+  }
+
+  100% {
+      transform: translate(0, 0) rotate(0deg);
+      opacity: 1;
+  }
 }
