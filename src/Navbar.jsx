@@ -27,8 +27,6 @@ function Nav(props) {
                     </ul>
                     <form class="d-flex mt-2">
                         <button class="btn btn-outline-light" type="submit">
-                            {/* <i class="bi-cart-fill me-1"></i> */}
-                            {/* <FontAwesomeIcon icon={faShoppingCart} className='me-1' /> */}
                             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                             Cart
                             <span class="badge bg-light text-dark ms-1 rounded-pill">0</span>
