@@ -55,16 +55,15 @@
   width: 100%;
 }
 .banner >h1{
-  font-size: 3.5rem;
+  font-size: 3.9rem;
   font-weight: 700;
   letter-spacing: 1.5px;
   line-height: 1.4;
-  text-shadow: 0 1px #FFFFFF, 0px -1px #FFFFFF, 1px -2px #FFFFFF, 2px -1px #FFFFFF, 2px -3px #FFFFFF, 3px -2px #FFFFFF, 3px -4px #FFFFFF, 4px -3px #FFFFFF, 4px -5px #000000;
+  text-shadow: 0 1px #1EE41D, 0px -1px #1EE41D, 1px -2px #1EE41D, 2px -1px #1EE41D, 2px -3px #FFFFFF, 3px -2px #FFFFFF, 3px -4px #FFFFFF, 4px -3px #FFFFFF, 4px -5px #000000;
 color: #000000;
 }
 .banner >h4{
   font-size: 1.3rem;
-  /* color: #909294; */
   color: #FFFFFF;
   text-shadow: 0 1px #000000, 0px -1px #000000, 1px -2px #000000, 2px -1px #000000, 2px -3px #000000, 3px -2px #000000, 3px -4px #000000, 4px -3px #000000, 4px -5px #000000;
 }
