@@ -12,12 +12,10 @@ function App() {
   
   const [cartData, setCartData] = useState([]);
   const [btnText, setBtnText] = useState([]);
-  // console.log(typeof btnText);
 
   for(let i=1;i <= 12;i++){
     let obj = { id : i, txt : "Add to Cart"};
     btnText.push(obj);
-    // console.log(btnText);
   }
 
   let cardDetails = [
@@ -29,7 +27,7 @@ function App() {
       productName: "NikePremier 3",
       starRating: 4,
       mrp: 159.38,
-      offer: 80,
+      offer: 20,
       btnTxt: btnText[0].txt
     },
     {
@@ -40,7 +38,7 @@ function App() {
       productName: "Nike Superfly 9 Elite Mercurial Dream Speed",
       starRating: 2,
       mrp: 70.62,
-      offer: 80,
+      offer: 25,
       btnTxt: btnText[1].txt
     },
     {
@@ -51,7 +49,7 @@ function App() {
       productName: "Nike Phantom GX Club",
       starRating: 4,
       mrp: 184.75,
-      offer: 75,
+      offer: 10,
       btnTxt: btnText[2].txt
     },
     {
@@ -62,7 +60,7 @@ function App() {
       productName: "Nike Phantom Luna Elite SE",
       starRating: 2,
       mrp: 105.25,
-      offer: 70,
+      offer: 25,
       btnTxt: btnText[3].txt
     },
     {
@@ -73,7 +71,7 @@ function App() {
       productName: "Nike Mercurial Vapor 15 Elite",
       starRating: 4,
       mrp: 250.12,
-      offer: 85,
+      offer: 15,
       btnTxt: btnText[4].txt
     },
     {
@@ -84,7 +82,7 @@ function App() {
       productName: "Nike Mercurial Superfly 9 Club",
       starRating: 5,
       mrp: 389.25,
-      offer: 87,
+      offer: 17,
       btnTxt: btnText[5].txt
     },
     {
@@ -95,7 +93,7 @@ function App() {
       productName: "Nike Zoom Mercurial Superfly 9 Academy KM MG",
       starRating: 5,
       mrp: 352.55,
-      offer: 80,
+      offer: 27,
       btnTxt: btnText[6].txt
     },
     {
@@ -106,7 +104,7 @@ function App() {
       productName: "Nike Phantom GX Elite",
       starRating: 3,
       mrp: 60.71,
-      offer: 80,
+      offer: 10,
       btnTxt: btnText[7].txt
     }
   ];

@@ -41,7 +41,7 @@ function Card({ props, press }) {
                 $
                 {props.offer === undefined
                   ? props.mrp
-                  : (props.mrp * (props.offer / 100)).toFixed(2)}
+                  : (props.mrp - props.mrp*((props.offer / 100))).toFixed(2)}
               </h4>
               <p
                 className={`priceDecrease ${
