@@ -16,7 +16,7 @@
 </ul>
 
 ## Learn About
-<p>I learned to create react project as well as to include components in it which helped me to understand how react project works in a browser.</p>
+<p>I learned to use useState hook as well as update component elements as per the request which helped me to understand how react manipulating browser Dom.</p>
 
 
 
@@ -25,6 +25,7 @@
 
 ## Screenshot
 <img src="https://github.com/shaikabdulcader/React-shopping-cart/blob/master/public/images/Screenshot%202024-01-23%20072121.png?raw=true">
+<img src="https://github.com/shaikabdulcader/React-shopping-cart/blob/master/public/images/Screenshot%202024-01-23%20073543.png?raw=true">
 
 ## Setup
 <p>Following are the requirements to run this project:</p>
