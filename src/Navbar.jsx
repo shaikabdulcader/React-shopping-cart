@@ -1,6 +1,6 @@
 import React from "react";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
-function Nav(props) {
+function Nav({navDetails}) {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -80,7 +80,7 @@ function Nav(props) {
                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 Cart
                 <span class="badge bg-light text-dark ms-1 rounded-pill badge">
-                  0
+                {navDetails.length}
                 </span>
               </button>
             </form>

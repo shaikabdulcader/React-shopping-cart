@@ -57,17 +57,10 @@ function Card({ props, press }) {
             </div>
           </div>
           <div class="card-footer pb-4 border-top-0 bg-transparent">
-            <div class="text-center">
-              <a
-                class="btn text-white btn-outline-dark mt-auto py-2 px-3 btn-dark"
-                href="/"
-                type="button"
-                onClick={press}
-              >
-                Add to Cart
-              </a>
+                <div class="text-center"><a 
+                class={`btn text-white btn-outline-dark mt-auto py-2 px-3 ${props.btnTxt == 'Add to Cart' ? 'btn-dark' : 'btn-danger'}`}
+                href="#" type='button' onClick={()=> press(props)}>{props.btnTxt}</a></div>
             </div>
-          </div>
         </div>
       </div>
     </>
