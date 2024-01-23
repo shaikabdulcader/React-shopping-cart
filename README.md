@@ -24,7 +24,7 @@
 <a href="https://react-shopping-cart-fsd.netlify.app/" target="_blank">Preview</a>
 
 ## Screenshot
-
+<img src="https://github.com/shaikabdulcader/React-shopping-cart/blob/master/public/images/Screenshot%202024-01-23%20072121.png?raw=true">
 
 ## Setup
 <p>Following are the requirements to run this project:</p>
