@@ -1,24 +1,24 @@
 /* nav-section */
-.nav-container{
+.nav-container {
   height: 55px;
 }
-.navbar-brand{
+.navbar-brand {
   padding-right: 3%;
   padding-left: 5%;
 }
 
-.fa-shopping-cart{
+.fa-shopping-cart {
   margin-right: 5px;
-  color: #1EE41D;
+  color: #1ee41d;
 }
 /* banner-section */
 
-.banner{
+.banner {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #CDD2D5;
+  color: #cdd2d5;
   background-color: #212529;
   background: url(http://www.pixelstalk.net/wp-content/uploads/2016/05/Adidas-football-shoe-wallpaper-HD.jpg);
   /* background: url(https://piusport.com/wp-content/uploads/2019/04/Neymar-1.jpg); */
@@ -29,37 +29,41 @@
   height: 65vh;
   width: 100%;
 }
-.banner >h1{
+.banner > h1 {
   font-size: 3.9rem;
   font-weight: 700;
   letter-spacing: 1.5px;
   line-height: 1.4;
-  text-shadow: 0 1px #1EE41D, 0px -1px #1EE41D, 1px -2px #1EE41D, 2px -1px #1EE41D, 2px -3px #FFFFFF, 3px -2px #FFFFFF, 3px -4px #FFFFFF, 4px -3px #FFFFFF, 4px -5px #000000;
-color: #000000;
+  text-shadow: 0 1px #1ee41d, 0px -1px #1ee41d, 1px -2px #1ee41d,
+    2px -1px #1ee41d, 2px -3px #ffffff, 3px -2px #ffffff, 3px -4px #ffffff,
+    4px -3px #ffffff, 4px -5px #000000;
+  color: #000000;
 }
-.banner >h4{
+.banner > h4 {
   font-size: 1.3rem;
-  color: #FFFFFF;
-  text-shadow: 0 1px #000000, 0px -1px #000000, 1px -2px #000000, 2px -1px #000000, 2px -3px #000000, 3px -2px #000000, 3px -4px #000000, 4px -3px #000000, 4px -5px #000000;
+  color: #ffffff;
+  text-shadow: 0 1px #000000, 0px -1px #000000, 1px -2px #000000,
+    2px -1px #000000, 2px -3px #000000, 3px -2px #000000, 3px -4px #000000,
+    4px -3px #000000, 4px -5px #000000;
 }
 
 /*Card */
-.card{
+.card {
   text-align: center;
   margin-bottom: 50px;
 }
 .card:hover {
   box-shadow: 7px 4px 45px 19px rgb(214, 213, 213);
-  transition: ease-out .5s;
+  transition: ease-out 0.5s;
   cursor: pointer;
 }
-.card-titles{
+.card-titles {
   font-weight: 700;
 }
-.fa-star{
-  color: #FFC107;
+.fa-star {
+  color: #ffc107;
 }
-.sale-btn{
+.sale-btn {
   width: 40px;
   height: auto;
   font-size: 12px;
@@ -69,14 +73,14 @@ color: #000000;
   top: 0;
   right: 0;
   margin: 10px;
-  color: #CDD2D5;
+  color: #cdd2d5;
   background-color: #000000;
   border: none;
   padding: 2px;
   border-radius: 5px;
 }
 /* footer-section */
-.footer-section{
+.footer-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,10 +88,10 @@ color: #000000;
   height: 16vh;
   width: auto;
   background-color: #212529;
-  color: #CDD2D5;
+  color: #cdd2d5;
 }
-.link{
-  color: #CDD2D5;
+.link {
+  color: #cdd2d5;
   text-decoration: none;
 }
 
@@ -100,12 +104,12 @@ color: #000000;
 
 @keyframes roll-in-animation {
   0% {
-      transform: translate(-100%, 0) rotate(-120deg);
-      opacity: 0.5;
+    transform: translate(-100%, 0) rotate(-120deg);
+    opacity: 0.5;
   }
 
   100% {
-      transform: translate(0, 0) rotate(0deg);
-      opacity: 1;
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 1;
   }
 }
