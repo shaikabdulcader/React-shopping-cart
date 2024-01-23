@@ -16,7 +16,7 @@
 </ul>
 
 ## Learn About
-<p>I learned to create react project as well as to include components in it which helped me to understand how react project works in a browser.</p>
+<p>I learned to use useState hook as well as update component elements as per the request which helped me to understand how react manipulating browser Dom.</p>
 
 
 
