@@ -13,7 +13,7 @@ function App() {
   const [cartData, setCartData] = useState([]);
   const [btnText, setBtnText] = useState([]);
 
-  for(let i=1;i <= 12;i++){
+  for(let i=1;i <= 8;i++){
     let obj = { id : i, txt : "Add to Cart"};
     btnText.push(obj);
   }
